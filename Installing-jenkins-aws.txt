@@ -1,0 +1,1 @@
+step 1 - Installing the Jenkins in the master and the slave architecture.
