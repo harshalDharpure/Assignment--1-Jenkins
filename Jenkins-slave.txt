@@ -1,0 +1,9 @@
+How to configure the Jenkins-Slve Node
+
+1. sudo yum update
+2. sudo dnf install java-17-amazon-corretto -y
+3. Go to the .ssh/ Dir
+4. ssh-keygen (to create a Public and Private Ip)
+5.  Your identification has been saved in /home/ec2-user/.ssh/id_rsa
+   Your public key has been saved in /home/ec2-user/.ssh/id_rsa.pub
+6. sudo cat id_rsa.pub  (to find the Public command)
