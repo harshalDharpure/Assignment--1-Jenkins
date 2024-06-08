@@ -1,1 +1,21 @@
 step 1 - Installing the Jenkins in the master and the slave architecture.
+
+Commands Step
+
+1. sudo yum update 
+2. sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+3. sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+4. sudo dnf install java-17-amazon-corretto -y
+5. sudo yum install jenkins –y
+6. sudo systemctl enable jenkins
+7. sudo systemctl start jenkins
+8. sudo systemctl status jenkins
+9. sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+10. copy the password in the Jenkins
+
+Password Should be 
+name - admin
+pass - admin
+email - admin@gmail.com
+
+Jenkins will run on the port 8080
